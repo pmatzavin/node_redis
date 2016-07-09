@@ -17,7 +17,6 @@ var redis = require("./index"),
     ended = false,
     next, cur_start, run_next_test, all_tests, all_start, test_count;
 
-
 // Set this to truthy to see the wire protocol and other debugging info
 redis.debug_mode = process.argv[2];
 
